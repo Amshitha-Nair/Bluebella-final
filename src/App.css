@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.categories,
+.cart,
+.aboutus,
+.sign-up,
+.men,
+.women {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.home {
+  background-image: url('./images/shopping.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(231, 221, 221);
+  font-size: 100px;
+}
+
+.shopping{
+  margin-left: 1500px;
+  margin-top: 20px;
+  
+}
+.categories {
+  background-color: rgb(86, 100, 100);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+}
+
+.catMen{
+  top: 300px;
+  left: 200px;
+  position: absolute;
+  bottom: 0;
+
+}
+
+.catWomen{
+  top: 300px;
+  left: 700px;
+  position: absolute;
+  bottom: 0;
+
+}
+
+.catKids{
+  top: -300px;
+  left: 600px;
+  position: absolute;
+  bottom: 0;
+
+}
+
+.cart {
+  
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.aboutus {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.sign-up {
+  background-image: url('./images/img-7.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.men {
+  background-image: url('./images/img-6.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.women {
+  background-image: url('./images/img-5.jpg');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.kids {
+  background-image: url('./images/img-5.jpg');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
